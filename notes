@@ -1,0 +1,30 @@
+MVP / prototype
+
+Recommendation
+  - recommendation (what)
+  - location (where: city)   // to be used as the initial search criterion?
+  - recommended_by (who)
+  - notes from recommended_by (why, context) (optional)
+
+  v2
+  - tags (e.g. 'food', 'outdoors', 'activity', 'museum')   // acts as taggable?
+
+UI
+[home]
+  - dropdown or typeahead with location
+  - button to see random recommendation within that location
+
+[recommendation]
+  - show Recommendation
+  - button to see new random rec > [recommendation]
+  - button to choose this rec > [marks as complete]
+
+[nav]
+  - link home / to change location
+
+
+Name inspo
+recom
+  - a la 'recommendation' + 'recon'. also 're.com' or 're:com', both site and reference.
+
+abenteuer
