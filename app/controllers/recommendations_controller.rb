@@ -1,4 +1,4 @@
-class RecommendationController < ApplicationController
+class RecommendationsController < ApplicationController
   def create
   end
 
