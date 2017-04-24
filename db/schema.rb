@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170418061132) do
+ActiveRecord::Schema.define(version: 20170424092058) do
 
   create_table "recommendations", force: :cascade do |t|
     t.string   "title"
@@ -20,6 +20,10 @@ ActiveRecord::Schema.define(version: 20170418061132) do
     t.string   "notes"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+    t.string   "description"
+    t.string   "official_url"
+    t.string   "maps_url"
+    t.string   "info_url"
   end
 
 end
